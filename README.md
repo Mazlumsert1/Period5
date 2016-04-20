@@ -53,7 +53,7 @@ WebSocket is a protocol providing full-duplex communication channels (allows com
 unlike half-duplex, allows this to happen simultaneously.) over a single TCP connection.
 The WebSocket protocol was standardized by the IETF as RFC 6455 in 2011, and the WebSocket API in Web IDL is being
 standardized by the W3C(World wide web).
-WebSocket is designed to be implemented in web browsers and web servers, but it can be used by any client or server application.
+WebSocket is designed to be implemented in web browsers and web servers, but it can be used by any client or server application..
 The WebSocket Protocol is an independent TCP-based protocol. Its only relationship to HTTP is that its handshake is interpreted by
 HTTP servers as an Upgrade request.[1] The WebSocket protocol makes more interaction between a browser and a website possible,
 facilitating the real-time data transfer from and to the server. This is made possible by providing a standardized way for the server
