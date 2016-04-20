@@ -42,12 +42,12 @@ The code is identical between clients and servers, making implementation much si
     Analytics – Leverage visualizations into your realtime data streams
     Data Sync – Sync application state across clients in realtime
 
-3. What is HTTP streaming, SSE (Server sent events)? :
+  3. What is HTTP streaming, SSE (Server sent events)? :
 
 Streaming is when the browser sends a request, but the server sends and maintains an open response, which is updated and kept open for a defined period of time. The response is updated whenever a message is ready to be sent. The server never requests to finish the response, resulting in the connection being kept open to deliver future messages. A major downside of Streaming is that it includes HTTP headers, which increases data and file size, thus increasing delay.
 
-4. What is WebSocket protocol, how is it different from HTTP communication, what advantages it has over 
-HTTP?
+  4. What is WebSocket protocol, how is it different from HTTP communication, what advantages it has over 
+     HTTP?
 
 WebSocket is a protocol providing full-duplex communication channels (allows communication in both directions, and,
 unlike half-duplex, allows this to happen simultaneously.) over a single TCP connection.
